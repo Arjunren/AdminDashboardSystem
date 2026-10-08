@@ -1,0 +1,1 @@
+export type User={id:number;name:string;email:string;role:"Admin"|"Analyst"|"Support";status:"Active"|"Invited"|"Suspended";lastSeen:string};export type Activity={id:number;actor:string;action:string;time:string;tone:"blue"|"green"|"amber"};
